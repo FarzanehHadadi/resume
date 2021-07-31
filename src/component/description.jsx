@@ -1,4 +1,5 @@
 import developer from "../asset/developer.png";
+import { Link } from "react-router-dom";
 const Description = () => {
   return (
     <section className="banner">
@@ -14,6 +15,9 @@ const Description = () => {
           I am a front-end web developer. My main areas of expertise include
           Javascript, ReactJS, HTML and CSS.
         </p>
+        <Link className="about-btn" to="/about">
+          about me
+        </Link>
       </div>
     </section>
   );

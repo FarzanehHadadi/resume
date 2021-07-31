@@ -1,7 +1,9 @@
+import CustomizedTimeline from "../component/Timeline";
+
 const About = () => {
   return (
     <div>
-      <h1>About page</h1>
+      <CustomizedTimeline />
     </div>
   );
 };

@@ -16,13 +16,16 @@
 
 }
 .description{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: capitalize;
     margin-top: 1rem;
+    position:relative;
+    
 }
 .name{
     display:block;
     margin-left: 2rem ;
+    margin-top: 1.5rem;
     font-size: 2rem;
     letter-spacing: 2px;
     font-family: 'Permanent Marker',
@@ -34,7 +37,7 @@
     order:-1;
 }
 .desc{
-    margin:2rem 1rem;
+    margin:2rem 0;
     max-width: 80%;
     font-size:19px;
     line-height: 2;
@@ -43,6 +46,7 @@
     width: 100%;
     display:block;
     border-radius: 15%;
+
     
 }
 .devider{
@@ -50,6 +54,7 @@
    height: 4px;
    background: #0d7ca8;
    border-radius: 10px; 
+   margin-left: 2   rem;
 }
 .trans {
     background: teal;
@@ -84,4 +89,39 @@
 }
 .section-center{
     margin: 4rem 0;
+}
+.about-btn{
+    background:#025754;
+    border :#025754 solid 2px;
+    color:#fcf683;
+    padding:0.5rem 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition:all 1s ease-in;
+   position:absolute;
+   right:50%;
+}
+.about-btn:hover{
+    background:#fcf683;
+    color:#025754;
+}
+footer{
+    background:#042e28;
+    padding:3rem 2rem;
+    text-align: center;
+}
+.contact{
+    line-height: 1.5;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.contact h2{
+    color:#82b0a9;
+}
+.info{
+    color:#82b0a9;
+    text-transform: lowercase;
+    margin: 1rem 0;
+    
 }
