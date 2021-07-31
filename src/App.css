@@ -1,9 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 *{
     padding: 0;
@@ -55,10 +49,14 @@
    width:300px;
    height: 4px;
    background: #0d7ca8;
-   border-radius: 10px;
-   
-  
+   border-radius: 10px; 
 }
+.trans {
+    background: teal;
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
 @media screen and (min-width:756px) {
     .banner {
         display:grid;
@@ -69,4 +67,21 @@
     .image-container{
         max-width:80%;
     }
+}
+
+/* CUSTOM LINE COLOR */
+/* The line */
+@media only screen and (min-width: 1170px){
+
+    .vertical-timeline.vertical-timeline--two-columns:before
+     {
+        background: #E0D3DE;
+    }
+} 
+.location {
+    color: #8f8f8f;
+    font-size: 0.9rem;
+}
+.section-center{
+    margin: 4rem 0;
 }
