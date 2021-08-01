@@ -8,9 +8,24 @@
     color:#383a3d;
 } 
 nav{
+    display: flex;
+    flex-direction: row-reverse;
     background:transform;
     padding: 1rem 2rem;
-    text-align: right;
+    text-align: left;
+    position:fixed;
+     top: 0;
+     left: 0;
+     right: 50px;
+    z-index: 10;
+    
+
+}
+.nav-btn{
+    border:none;
+    background:none;
+    outline: none;
+    cursor: pointer;
 }
 .nav-link{
     display:inline-block;
@@ -299,6 +314,11 @@ footer h2{
         margin: 0 auto;
     }
 }
+.about{
+    padding:4rem 2rem;
+}
+
+
 @media screen and (min-width:992px) {
     .image-container {
         max-width: 80%;
