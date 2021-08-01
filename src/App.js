@@ -2,17 +2,23 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Footer from "./component/Footer";
-import { BrowserRouter, Route, SWitch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import TeaShop from "./pages/TeaShop";
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/teashop">
+            <TeaShop />
+          </Route>
+        </Switch>
       </BrowserRouter>
       <Footer />
     </>

@@ -33,7 +33,7 @@ nav{
 }
 .header{
     background: linear-gradient(110deg, #fdcd3b 60%, #f2f542 60%);
-    min-height: 100vh;
+    min-height: 50vh;
 }
 .banner{
     align-items: center;
@@ -82,50 +82,6 @@ nav{
    border-radius: 10px; 
    margin-left: 2   rem;
 }
-
-
-@media screen and (min-width:756px) {
-    .banner {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-      .projects-list {
-          grid-template-columns: repeat(2, 1fr) !important;
-          justify-content: space-between;
-          margin-top: 0;
-          margin-bottom: 0;
-      }
-
-      .contact {
-          display: flex;
-          justify-content: space-around;
-      }
-
-      footer h2 {
-          margin-left: 2rem;
-      }
-}
-@media screen and (min-width:992px){
-    .image-container{
-        max-width:80%;
-    }
-   
-}
-
-/* CUSTOM LINE COLOR */
-/* The line */
-@media only screen and (min-width: 1170px){
-
-    .vertical-timeline.vertical-timeline--two-columns:before
-     {
-        background: #E0D3DE;
-    }
-    .projects-list{
-        max-width: 90vw;
-    grid-template-columns: repeat(3, 400px)!important;
-    }
-
-} 
 .location {
     color: #8f8f8f;
     font-size: 0.9rem;
@@ -154,10 +110,11 @@ footer{
     /* background:#042e28; */
     /* background:#cf8508; */
     /* background:#9e752f; */
-    background: radial-gradient(circle, rgba(253, 187, 45, 1) 45%, rgba(250, 240, 87, 1) 50%);
+    background: radial-gradient(circle, rgba(253, 187, 45, 1) 70%, rgba(250, 240, 87, 1) 50%);
     padding:3rem 2rem;
     text-align: left;
     color:#292216;
+    height: 300px;
 }
 .contact{
     line-height: 1.5;
@@ -230,21 +187,133 @@ footer h2{
     border-bottom-right-radius: 10px;
 }
 .animate-divider{
-    margin:0 auto;
-    animation: filling 3s ease infinite;
+    animation: filling 15s ease infinite;
 }
 @keyframes filling {
     0%{
         width:0;
     }
-    50%{
+    100%{
         width:300px;
     }
 }
 .projects-title{
-    text-align: center;
-    text-justify: center;
-    text-transform: uppercase;
+    margin:1rem;
+    margin-top: 0;
+    text-align: left;
+        text-transform: uppercase;
     font-size: 2rem;
     color:#04274a
+}
+.projects-title p{
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height:2;
+    text-transform: lowercase;
+}
+.single-project{
+    padding: 2rem;
+    margin: 1rem 2rem;
+}
+.single-project-title{
+    text-align: left;
+    margin:1rem 4rem;
+    text-transform: capitalize;
+}
+.single-project-title h3{
+    font-size: 2.5rem;
+}
+.single-project-title h5{
+    color:#8f8f8f;
+}
+.single-project-image-container{
+    /* overflow:hidden;
+    text-align: center;
+    position:relative;
+   
+    height: 20vh;
+    width: 60vw; */
+    position:relative;
+    margin-top: 50px;
+    
+}
+.single-project-image{
+     width: 100%;
+     z-index: 2;
+     position: relative;
+     border-radius: 5px;
+     
+}
+.single-project-image-container::after{
+    content:"";
+     position:absolute;
+     top:-10%;
+     left: -10%;;
+     width:100%;
+     height:100%;
+    border-radius: 50%;
+    background:rgb(254, 173, 39);
+    z-index: 1;
+}
+.single-project-info{
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 4rem;
+    max-width: 70%;
+}
+.url{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 1rem auto;
+}
+.single-project-info a{
+    color:blue;
+    display:inline-block;
+    font-size: 1.1rem;
+}
+.single-project-desc{
+    font-size: 1.2rem;
+    line-height:1.5
+}
+/******************* media screen ******************/
+@media screen and (min-width:756px) {
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .contact {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer h2 {
+        margin-left: 2rem;
+    }
+    .single-project-image-container {
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:992px) {
+    .image-container {
+        max-width: 80%;
+    }
+    .single-project-image-container {
+        max-width: 30vw;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline.vertical-timeline--two-columns:before {
+        background: #E0D3DE;
+    }
+    .projects-list {
+        max-width: 90vw;
+        grid-template-columns: repeat(3, 400px) !important;
+    }
 }

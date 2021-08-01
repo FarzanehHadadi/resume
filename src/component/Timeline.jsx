@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useEffect, useRef } from "react";
 import { FaReact } from "react-icons/fa";
 import { SiCsharp } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
