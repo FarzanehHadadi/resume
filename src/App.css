@@ -111,13 +111,13 @@ footer{
     /* background:#cf8508; */
     /* background:#9e752f; */
     background: radial-gradient(circle, rgba(253, 187, 45, 1) 70%, rgba(250, 240, 87, 1) 50%);
-    padding:3rem 2rem;
+    padding:1rem 2rem;
     text-align: left;
     color:#292216;
-    height: 300px;
+    max-height: 200px;
 }
 .contact{
-    line-height: 1.5;
+    line-height: 1;
     letter-spacing: 1px; 
    
 }
@@ -137,7 +137,7 @@ footer h2{
     padding:3rem 0;
 }
 .info-container{
-    margin:2rem 0;
+    margin:1rem 0;
 }
 
 .projects-list{

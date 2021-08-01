@@ -1,4 +1,3 @@
-import { Link, Redirect } from "react-router-dom";
 import teashop from "../asset/teashop.jpg";
 import Navbar from "../component/Navbar";
 

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import tea from "../asset/tea.png";
+import teashop from "../asset/teashop.jpg";
+import chatapp from "../asset/chatapp.jpg";
+
 const ProjectsList = () => {
   return (
     <section className="section">
@@ -18,7 +20,7 @@ const ProjectsList = () => {
         <Link className="project" to="/onlineshop">
           <div className="project-image-container">
             <img
-              src={tea}
+              src={chatapp}
               alt="hadadi-tea.netlify.app"
               className="project-img"
             />
@@ -33,14 +35,14 @@ const ProjectsList = () => {
         <Link className="project" to="/chatwithme">
           <div className="project-image-container">
             <img
-              src={tea}
+              src={chatapp}
               alt="hadadi-tea.netlify.app"
               className="project-img"
             />
           </div>
           <p className="project-info">
-            This project is made by HTML and CSS. it is fully responsive. this
-            website was designed for a tea shop
+            This is a chat application with social authentication. it is made by
+            ReactJS and is fully responsive.
           </p>
         </Link>
         {/* end of project 2 */}
@@ -48,7 +50,7 @@ const ProjectsList = () => {
         <Link className="project" to="/teashop">
           <div className="project-image-container">
             <img
-              src={tea}
+              src={teashop}
               alt="hadadi-tea.netlify.app"
               className="project-img"
             />

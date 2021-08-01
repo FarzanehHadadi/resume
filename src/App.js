@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Footer from "./component/Footer";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import TeaShop from "./pages/TeaShop";
+import ChatWithMe from "./pages/Chatapp";
 function App() {
   return (
     <>
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route exact path="/teashop">
             <TeaShop />
+          </Route>
+          <Route exact path="/chatwithme">
+            <ChatWithMe />
           </Route>
         </Switch>
       </BrowserRouter>
