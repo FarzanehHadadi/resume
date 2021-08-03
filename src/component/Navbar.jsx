@@ -11,25 +11,28 @@ const Navbar = () => {
   return (
     <nav>
       <Planet
-        centerContent={<FcMenu size={40} />}
-        hideOrbit
+        // centerContent={<FcMenu size={40} />}
+        centerContent={<FcMenu style={{ display: "none" }} />}
+        hideOrbit={true}
+        hidePlanet={true}
         dragablePlanet={true}
         dragRadiusPlanet={100}
-        autoClose
         orbitRadius={50}
         bounceOnClose
-        rotation={-20}
+        rotation={-40}
         bounceDirection="LEFT"
+        open={true}
+        mass={5}
       >
-        <button onClick={smoothscroll} className="nav-btn">
+        <button onClick={smoothscroll} className="nav-contact">
           <FcPhone size={25} title="Contact" />
         </button>
-        <Link to="/about">
+        <a href="/about">
           <FcBusinesswoman title="About" size={25} />
-        </Link>
-        <Link to="/">
+        </a>
+        <a href="/">
           <FcHome size={25} title="Home" />
-        </Link>
+        </a>
         <div />
         <div />
         <div />
