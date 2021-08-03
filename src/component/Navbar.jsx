@@ -1,13 +1,6 @@
 import { Link } from "react-router-dom";
 import { Planet } from "react-planet";
-import {
-  FcBusinesswoman,
-  FcHome,
-  FcPortraitMode,
-  FcPhone,
-  FcPlus,
-  FcMenu,
-} from "react-icons/fc";
+import { FcBusinesswoman, FcHome, FcPhone, FcMenu } from "react-icons/fc";
 const Navbar = () => {
   const smoothscroll = () => {
     const footer = document.getElementById("footer");
