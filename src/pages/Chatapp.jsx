@@ -16,7 +16,11 @@ const ChatWithMe = () => {
         <div className="single-project-info">
           <p className="url">
             Project URL:&nbsp;
-            <a href="https://hadadi-chatwithme.netlify.app/" target="_blank">
+            <a
+              href="https://hadadi-chatwithme.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               hadadi-chatwithme.netlify.app
             </a>
           </p>

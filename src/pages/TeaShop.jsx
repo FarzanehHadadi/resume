@@ -17,7 +17,11 @@ const TeaShop = () => {
         <div className="single-project-info">
           <p className="url">
             Project URL:&nbsp;
-            <a href="https://hadadi-tea-shop.netlify.app/" target="_blank">
+            <a
+              href="https://hadadi-tea-shop.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               hadadi-tea-shop.netlify.app
             </a>
           </p>
