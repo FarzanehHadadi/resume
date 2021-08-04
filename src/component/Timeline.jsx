@@ -175,7 +175,7 @@ export default function Timeline() {
           </ul>
 
           <h5 className="text-primary"> Technical Stacks:</h5>
-          <p>visual C++, MySQL,SourceSafe</p>
+          <p>Visual C++, MySQL,SourceSafe</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
