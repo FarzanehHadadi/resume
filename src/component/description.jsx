@@ -12,7 +12,7 @@ const Description = () => {
         </div>
         <div className="description">
           <p>
-            my name is <span className="name">farzaneh hadadi</span>{" "}
+            my name is <span className="name">farzaneh haddadi</span>{" "}
           </p>
           <div className="devider"></div>
           <p className="desc">

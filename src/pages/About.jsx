@@ -1,11 +1,21 @@
-import CustomizedTimeline from "../component/Timeline";
+import Timeline from "../component/Timeline";
 import Navbar from "../component/Navbar";
+
+import Summery from "../component/Summery";
+import Skills from "../component/Skills";
+import DownloadCV from "../component/DownloadCV";
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <Navbar />
-      <CustomizedTimeline />
+      <Summery />
+      <hr />
+      <Timeline />
+      <hr />
+      <Skills />
+      <hr />
+      <DownloadCV />
     </div>
   );
 };

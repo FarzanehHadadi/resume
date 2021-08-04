@@ -1,7 +1,7 @@
 const Summery = () => {
   return (
-    <div className="summery-desc">
-      <h3 className="summery-title">Overiew</h3>
+    <div className="px-4">
+      <h3 className="text-primary">Overiew</h3>
       <p>
         After graduating in 2012 with a Bachelor’s Degree in Information &#x26;
         Technology Engineering from{" "}

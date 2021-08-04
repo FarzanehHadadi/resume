@@ -48,7 +48,9 @@ nav{
     
 }
 .header{
-    background: linear-gradient(110deg, #fdcd3b 60%, #f2f542 60%);
+    /* background: linear-gradient(110deg, #fdcd3b 60%, #f2f542 60%); */
+    background: linear-gradient(70deg, rgba(67, 146, 241, 1) 45%, rgba(236, 232, 239, 1) 46%);
+    
     min-height: 50vh;
 }
 .banner{
@@ -63,10 +65,16 @@ nav{
     position:relative;
     
 }
+ul{
+    list-style-type: circle;
+}
+ul li{
+    font-size: 0.9rem;
+}
 .name{
     display:block;
     margin-left: 2rem ;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 2rem;
     letter-spacing: 2px;
     font-family: 'Permanent Marker',
@@ -78,7 +86,7 @@ nav{
     order:-1;
 }
 .desc{
-    margin:2rem 0;
+    margin:2rem 0 1rem 0;
     max-width: 80%;
     font-size:19px;
     line-height: 2;
@@ -86,9 +94,7 @@ nav{
 .image {
     width: 100%;
     display:block;
-    border-radius: 15%;
-
-    
+    border-radius: 15%;    
 }
 .animate-divider,
 .devider{
@@ -114,8 +120,6 @@ nav{
     text-transform: uppercase;
     font-size: 1rem;
     transition:all 1s ease-in;
-   position:absolute;
-   right:50%;
 }
 .about-btn:hover{
     background:#fcf683;
@@ -126,7 +130,8 @@ footer{
     /* background:#042e28; */
     /* background:#cf8508; */
     /* background:#9e752f; */
-    background: radial-gradient(circle, rgba(253, 187, 45, 1) 70%, rgba(250, 240, 87, 1) 50%);
+    /* background: radial-gradient(circle, rgba(253, 187, 45, 1) 70%, rgba(250, 240, 87, 1) 50%); */
+     background: linear-gradient(70deg, rgba(236, 232, 239, 1) 46%, rgba(67, 146, 241, 1) 45%);
     padding:1rem 2rem;
     text-align: left;
     color:#292216;
@@ -141,6 +146,7 @@ footer{
 footer h2{
     color:#292216;
     text-transform: capitalize;
+    font-size: 1.2rem;
 }
 
 .info{
@@ -292,40 +298,20 @@ footer h2{
     line-height:1.5
 }
 /******************* media screen ******************/
-@media screen and (min-width:756px) {
-    .banner {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .projects-list {
-        grid-template-columns: repeat(2, 1fr) !important;
-        justify-content: space-between;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .contact {
-        display: flex;
-        justify-content: space-around;
-    }
-    footer h2 {
-        margin-left: 2rem;
-    }
-    .single-project-image-container {
-        max-width: 50vw;
-        margin: 0 auto;
-        
-    }
-}
+
 .about{
     padding:4rem 2rem;
+    margin: 0  auto;
 }
 
 .dev-name{
+    font-size: 0.9rem;
     text-transform: capitalize;
     color:#663202;
 }
 .summery-desc p{
     line-height:2;
+
     width:90%;
     text-justify: left;
     color:#04274a;
@@ -334,8 +320,38 @@ footer h2{
 .summery-desc a{
     text-decoration: none;
 }
-.summery-title{
-    color:#663202;
+
+.skill-img {
+    width: 60px;
+}
+@media screen and (min-width:756px) {
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer h2 {
+        margin-left: 2rem;
+        font-weight: bold;
+    }
+
+    .single-project-image-container {
+        max-width: 50vw;
+        margin: 0 auto;
+
+    }
 }
 @media screen and (min-width:992px) {
     .image-container {
@@ -345,14 +361,22 @@ footer h2{
         max-width: 30vw;
         margin: 0 auto;
     }
+    .banner,
+    .section,
+    .footer-container,
+    .about{
+    max-width: 75vw;
+    margin:0 auto;
+    }
     
 }
-@media only screen and (min-width: 1170px) {
+
+@media screen and (min-width: 1170px) {
     .vertical-timeline.vertical-timeline--two-columns:before {
         background: #E0D3DE;
     }
     .projects-list {
         max-width: 90vw;
-        grid-template-columns: repeat(3, 400px) !important;
+        grid-template-columns: repeat(3, 300px) !important;
     }
 }
