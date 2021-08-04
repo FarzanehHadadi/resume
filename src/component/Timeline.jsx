@@ -30,14 +30,15 @@ export default function Timeline() {
           icon={<FaReact size={70} />}
         >
           <h5 className="vertical-timeline-element-title text-capitalize">
-            front end web developer
+            freelance front end web developer
           </h5>
           <h5 className="vertical-timeline-element-subtitle location">
             Karaj, Iran
           </h5>
-          <p>
-            Freelance Professional Web Developer and Designer using the below
-            skills: React,Redux, Javascript, jQuery, CSS, SASS, HTML5, etc
+          <p>Professional Web Developer and Designer</p>
+          <h6 className="text-primary mt-2"> Technical Stacks:</h6>
+          <p style={{ fontSize: "0.9rem" }} className="pl-3">
+            React,Redux, Javascript, jQuery, CSS, SASS, HTML5, etc
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -52,7 +53,7 @@ export default function Timeline() {
           <h6 className="vertical-timeline-element-subtitle">
             {`Mapna Electric & Control Engineering & Manufacturing(MECO)`}
           </h6>
-          <p className="location">Company in Karaj, Iran</p>
+          <p className="location"> Karaj, Iran</p>
           <h5 className="text-primary">Responsibilities:</h5>
           <ul>
             <li>
@@ -120,7 +121,9 @@ export default function Timeline() {
             </li>
           </ul>
           <h5 className="text-primary"> Technical Stacks:</h5>
-          <p>C#, C++, SQLServer,TFS,design patterns, TDD, agile and scrum</p>
+          <p style={{ fontSize: "0.9rem" }} className="pl-3">
+            C#, C++, SQLServer,TFS,design patterns, TDD, agile and scrum
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -135,7 +138,7 @@ export default function Timeline() {
             Shabihbsazane Mantegh Company
           </h6>
 
-          <p className="location">Company in Karaj, Iran</p>
+          <p className="location"> Karaj, Iran</p>
           <p className="location">
             {/* i was working in an application it this company. i was writting code
             in visual C++,MySQL, sourceSafe , visual studio */}
@@ -144,10 +147,10 @@ export default function Timeline() {
           <ul>
             {/* <li>Maintain and Add new Feature for the core system.</li> */}
             <li>
-              Implementing BI(Business intelligence) and Project Management
-              module and design databases
+              Implement BI(Business intelligence) and Project Management module
+              and design databases
             </li>
-            <li>maintain CRM(Customer Relationship Management) module</li>
+            <li>Maintain CRM(Customer Relationship Management) module</li>
             <li>
               Analyzing system requirements and delegating development tasks.
             </li>
@@ -160,12 +163,8 @@ export default function Timeline() {
           <h5 className="text-primary">Achievements</h5>
           <ul>
             <li>
-              Developed a module to enable users to predict sales amount in time
-              interval in a windows-based BI application
-            </li>
-            <li>
-              Developed a module to enable users to predict sales amount in time
-              interval in a windows-based BI application
+              Develop a module to enable users to predict sales amount in time
+              intervals in windows-based BI application
             </li>
             <li>
               develop a graphical module to visualize sale and profit for users
