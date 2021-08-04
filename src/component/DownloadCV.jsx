@@ -9,10 +9,7 @@ const DownloadCV = () => {
         href="/F-Haddadi-en.pdf"
         download
       >
-        English
-      </a>
-      <a className="btn btn-success px-4" href="/F-Haddadi-en.pdf" download>
-        Persian
+        resume
       </a>
     </div>
   );
