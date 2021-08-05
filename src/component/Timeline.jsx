@@ -167,7 +167,7 @@ export default function Timeline() {
               intervals in windows-based BI application
             </li>
             <li>
-              develop a graphical module to visualize sale and profit for users
+              Develop a graphical module to visualize sale and profit for users
             </li>
             <li>
               Experience with Visual Studio Macros, Visual Assist, HTML, etc.
