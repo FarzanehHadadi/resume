@@ -5,6 +5,8 @@ import Footer from "./component/Footer";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import TeaShop from "./pages/TeaShop";
 import ChatWithMe from "./pages/Chatapp";
+import Onlineshop from "./pages/Onlineshop";
+
 function App() {
   return (
     <>
@@ -21,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/chatwithme">
             <ChatWithMe />
+          </Route>
+          <Route exact path="/onlineshop">
+            <Onlineshop />
           </Route>
         </Switch>
       </BrowserRouter>

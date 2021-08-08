@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import teashop from "../asset/teashop.jpg";
 import chatapp from "../asset/chatapp.jpg";
+import onlineshop from "../asset/onlineshop.jpg";
 
 const ProjectsList = () => {
   return (
@@ -20,14 +21,14 @@ const ProjectsList = () => {
         <Link className="project" to="/onlineshop">
           <div className="project-image-container">
             <img
-              src={chatapp}
-              alt="hadadi-tea.netlify.app"
+              src={onlineshop}
+              alt="hadadi-onlineshop.netlify.app"
               className="project-img"
             />
           </div>
           <p className="project-info">
-            This project is made by HTML and CSS. it is fully responsive. this
-            website was designed for a tea shop
+            a user friendly store website. it is made by ReactJS and is fully
+            responsive.
           </p>
         </Link>
         {/* end of project 1 */}
