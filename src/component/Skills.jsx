@@ -3,6 +3,7 @@ import bootstrap from "../asset/bootstrap.png";
 import github from "../asset/github.png";
 import git from "../asset/git.png";
 import npm from "../asset/npm.png";
+import nextjs from "../asset/nextjs.svg";
 import redux from "../asset/redux.png";
 import tfs from "../asset/tfs.png";
 import visualstudio from "../asset/visual-studio.png";
@@ -140,6 +141,10 @@ const Skills = () => {
         <Col className="text-center">
           <Image src={bootstrap} alt="bootstrap" className="skill-img" />
           <p className="dev-name">bootstrap</p>
+        </Col>
+        <Col className="text-center">
+          <Image src={nextjs} alt="nextjs" className="skill-img nextjs" />
+          <p className="dev-name">nextjs</p>
         </Col>
         <Col className="text-center">
           <Image src={npm} alt="npm" className="skill-img" />
