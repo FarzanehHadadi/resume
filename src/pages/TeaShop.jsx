@@ -26,11 +26,7 @@ const TeaShop = () => {
             </a>
           </p>
           <p className="single-project-desc">
-            My job was to create a product showcase website for a Latvian
-            artisan vodka distillery brand "Rizhskiy Samogon". The website was
-            created using <strong>React.js</strong> and utilises a scrollable
-            full screen presentational style UX solution. The design mockups
-            were provided by the amazing designer Elvijs Vilevics.
+            The website was created using <strong>HTML5 and CSS</strong>.
           </p>
         </div>
       </article>
