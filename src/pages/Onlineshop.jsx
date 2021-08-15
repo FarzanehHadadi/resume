@@ -31,7 +31,7 @@ const Onlineshop = () => {
           </p>
           <p className="single-project-desc">
             This project is made by ReactJS. it is fully responsive. in this
-            website i used react hooks. also i used styled-component for styling
+            website i used react hooks and redux. also i used styled-component for styling
             and Auth0 for authentication.
           </p>
         </div>
