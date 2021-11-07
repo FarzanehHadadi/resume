@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import TeaShop from "./pages/TeaShop";
 import ChatWithMe from "./pages/Chatapp";
 import Onlineshop from "./pages/Onlineshop";
-
 function App() {
   return (
     <>
