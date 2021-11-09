@@ -6,7 +6,7 @@
   "start_url": ".",
   "name": "Hadadi",
   "short_name": "Had",
-  "prefer_related_applications": "false",
+  "prefer_related_applications": "true",
   "description": "farzaneh hadadi resume",
   "icons": [
     {
@@ -24,7 +24,7 @@
       "src": "maskable_icon.png",
       "sizes": "196x196",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
