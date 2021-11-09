@@ -3,9 +3,10 @@
   "background_color": "#f69435",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": ".",
   "name": "Hadadi",
   "short_name": "Had",
+  "prefer_related_applications": "false",
   "description": "farzaneh hadadi resume",
   "icons": [
     {
