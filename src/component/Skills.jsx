@@ -14,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Skills = () => {
   return (
-    <Container className="px-4">
+    <div className="container-fluid px-4 ">
       <h3 className="h4 text-uppercase font-italic text-primary">skills</h3>
       <Row className="py-2 my-3">
         <Col md={6} xs={10} className="mb-4 ">
@@ -167,7 +167,7 @@ const Skills = () => {
           <p className="dev-name">vs code</p>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 
